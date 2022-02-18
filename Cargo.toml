@@ -1,0 +1,17 @@
+[package]
+name = "mint"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mpl-token-metadata = "1.2.4"
+solana-client = "1.9.7"
+solana-sdk = "1.9.7"
+solana-tokens = "1.9.7"
+spl-associated-token-account = "1.0.3"
+spl-token = "3.2.0"
+serde = "1.0.136"
+url = { version = "2", features = ["serde"] }
+envy = "0.4.2"
